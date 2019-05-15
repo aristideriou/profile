@@ -2,15 +2,26 @@
   display: inline;
 }
 
-button{
-  margin: auto;
-}
-
 .container{
   font-family: cursive;
   width: 800px;
   margin: 0 auto;
   background-image: url("https://assets.awwwards.com/awards/external/2019/03/5c9b56a095651539343372.jpg");
+}
+
+.style_switcher{
+  background-color: #2488F7;
+  padding: 7px;
+  margin: 5px;
+  display: inline;
+  border-radius: 5px;
+  font-size: 1.2em;
+  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  color: black;
+  }
+
+#old_style{
+  display: none;
 }
 
 .card{

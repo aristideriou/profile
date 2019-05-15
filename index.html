@@ -8,8 +8,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Merienda|Open+Sans" rel="stylesheet">
 
-  <!-- <link rel="stylesheet" href="old_school_style.css"> -->
-
   <script>
     function setStyleSheet(url){
       var stylesheet = document.getElementById("stylesheet");
@@ -27,18 +25,13 @@
 
     <img src="https://media.licdn.com/dms/image/C5603AQGdoDZYaKtZlw/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=a5OJX6ZjVgKLSNRbeSn2P7WNW1w5ZxeNqPa2zn0cieM" alt="Aristide Riou profile picture">
 
-    <button>
-      <a onclick="setStyleSheet('old_school_style.css')" href="#">DON'T CLICK THIS BUTTON</a>
-    </button>
-
-    <br>
-
-    <button>
-      <a onclick="setStyleSheet('style.css')" href="#">Back to regular style</a>
-    </button>
-
+    <h1>Aristide Riou</h1>
     <h1>Webanalytics & Tag Management Wizard</h1>
     <h2>Also Ruby & Rails enthusiast 💎 </h2>
+
+    <a class="style_switcher" id='old_style' onclick="setStyleSheet('old_school_style.css')" href="#">DON'T CLICK THIS BUTTON</a>
+
+    <a class="style_switcher"  id='new_style' onclick="setStyleSheet('style.css')" href="#">Back to regular style</a>
 
     <div class="card">
       <p>Ahoy there, and welcome to my profile page. I'm Aristide Riou, web analyst living in Bretagne, France (arguably the best place in the world). I work for <a href="https://www.ouest-france.fr/" target="_blank">Ouest France</a>, one of the top French publishers.</p>
@@ -56,7 +49,7 @@
 
 
     <div class="card">
-      <p>You can find me on :</p>
+      <p>You can find me on the I N T E R N E T S :</p>
       <ul class="social_links">
         <li><a href="https://twitter.com/Aristweet" target="_blank"><i class="fab fa-twitter"></i></a></li>
         <li><a href="https://aristide-riou.fr/blog/"><i class="fas fa-blog" target=_blank></i></a></li>

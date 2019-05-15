@@ -1,5 +1,7 @@
 .container{
-  width: 60%;
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
   margin: 0 auto;
 }
 
@@ -11,11 +13,27 @@ body{
   background-color: #F7F9FC;
 }
 
+.style_switcher{
+  background-color: #9ACAEE;
+  padding: 7px;
+  margin: 15px;
+  display: inline;
+  border-radius: 5px;
+  font-size: 1.2em;
+  box-shadow: 10px 10px 5px -10px rgba(0,0,0,0.25);
+  border : 0.5px solid #C2DFF5;
+  color: black;
+  }
+
+#new_style{
+  display: none;
+}
+
 .card{
   background-color: #F6F1E3;
   border: 1px solid #F6F1E3;
   border-radius: 5px;
-  margin : 10px;
+  margin : 15px;
   padding : 8px;
   box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
 }
@@ -33,17 +51,17 @@ h1,h2{
   text-align: center;
 }
 
-button{
-  margin: auto;
-}
-
 p{
   font-family: 'Open Sans', sans-serif;
 }
 
-a{
+.card a{
   text-decoration: none;
   color: #ED3833;
+}
+
+a{
+  text-decoration: none;
 }
 
 a:hover{
@@ -53,6 +71,8 @@ a:hover{
 
 .social_links li{
   list-style: none;
-  padding-left: 0px;
+  display: inline;
+  padding: 10px;
+  font-size: 1.5em;
 }
 
