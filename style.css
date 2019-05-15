@@ -1,6 +1,10 @@
 .container{
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
+}
+
+.old_school_image{
+  display: none;
 }
 
 body{
@@ -27,6 +31,10 @@ h1,h2{
   font-size: 1.8em;
   line-height: 1.2em;
   text-align: center;
+}
+
+button{
+  margin: auto;
 }
 
 p{

@@ -7,17 +7,35 @@
   <title>Aristide Riou | Webanalytics maniac since 2009</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Merienda|Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 
   <!-- <link rel="stylesheet" href="old_school_style.css"> -->
+
+  <script>
+    function setStyleSheet(url){
+      var stylesheet = document.getElementById("stylesheet");
+      stylesheet.setAttribute('href', url);
+      }
+  </script>
+
+  <link id="stylesheet" rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
   <div class="container">
 
+
     <img src="https://media.licdn.com/dms/image/C5603AQGdoDZYaKtZlw/profile-displayphoto-shrink_200_200/0?e=1563408000&v=beta&t=a5OJX6ZjVgKLSNRbeSn2P7WNW1w5ZxeNqPa2zn0cieM" alt="Aristide Riou profile picture">
 
-    <button>Switch to old school style</button>
+    <button>
+      <a onclick="setStyleSheet('old_school_style.css')" href="#">DON'T CLICK THIS BUTTON</a>
+    </button>
+
+    <br>
+
+    <button>
+      <a onclick="setStyleSheet('style.css')" href="#">Back to regular style</a>
+    </button>
 
     <h1>Webanalytics & Tag Management Wizard</h1>
     <h2>Also Ruby & Rails enthusiast 💎 </h2>
@@ -25,6 +43,8 @@
     <div class="card">
       <p>Ahoy there, and welcome to my profile page. I'm Aristide Riou, web analyst living in Bretagne, France (arguably the best place in the world). I work for <a href="https://www.ouest-france.fr/" target="_blank">Ouest France</a>, one of the top French publishers.</p>
     </div>
+
+    <img src="https://assets.awwwards.com/awards/gallery/2019/03/best_viewd_nestcape.jpg" alt="" class="old_school_image">
 
     <div class="card">
       <p>I started my career in e-commerce (#1 French e-commerce website Cdiscount, My M&M's), and then moved to the world of digital agencies (BBDO, Wunderman). I've been in charge of Webanalytics at Ouest-France (among the biggest French publishers) since 2016.</p>
@@ -47,4 +67,7 @@
   </div>
 
 </body>
+
+
+
 </html>

@@ -1,0 +1,24 @@
+.old_school_image{
+  display: inline;
+}
+
+button{
+  margin: auto;
+}
+
+.container{
+  font-family: cursive;
+  width: 800px;
+  margin: 0 auto;
+  background-image: url("https://assets.awwwards.com/awards/external/2019/03/5c9b56a095651539343372.jpg");
+}
+
+.card{
+  border: 2px dotted black;
+  background: rgba(0, 0, 255, 0.8);
+}
+
+h1,h2{
+  font-family:  ;
+  color: red;
+}
